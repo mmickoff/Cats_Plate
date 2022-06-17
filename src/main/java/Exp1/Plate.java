@@ -28,4 +28,5 @@ public class Plate {
     public void info() {
         System.out.printf("В тарелке %d единиц еды\n\n", food);
     }
+
 }

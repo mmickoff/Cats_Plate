@@ -1,10 +1,10 @@
 package Exp1;
 
 public class Cat {
-    private String name;
-    private int appetite;                   // сколько кот съедает за один подход к тарелке
+    final private String name;
+    final private int appetite;                   // сколько кот съедает за один подход к тарелке
     private int saturationFood;             // насыщение кота едой - сколько кот съел единиц еды - увеличивается на appetite за каждый подход к тарелке
-    private int catFullness;                // сколько коту нужно съесть до полного насыщения
+    final private int catFullness;                // сколько коту нужно съесть до полного насыщения
     private boolean fullness;
 
     public Cat(String name, int appetite) {

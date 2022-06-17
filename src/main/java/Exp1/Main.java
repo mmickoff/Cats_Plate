@@ -14,6 +14,7 @@ public class Main {
                 new Cat("Vas'ka", 5),
                 new Cat("Bonya", 4)
         };
+
         System.out.println("Укажите первоначальное количество еды в миске:");
         Plate plate = new Plate(new Scanner(System.in).nextInt());
 
